@@ -12,3 +12,4 @@ cmd
 ```yarn add webpack webpack-cli webpack-dev-server -D```
 ```yarn add babel-loader -D```
 ```yarn webpack```
+```yarn add html-webpack-plugin -D```
