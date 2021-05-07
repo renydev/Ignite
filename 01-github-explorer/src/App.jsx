@@ -1,3 +1,3 @@
 export function App() {
-  return <h1>Hellllo World</h1>
+  return <h1>Hello World</h1>
 }
