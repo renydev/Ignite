@@ -15,3 +15,4 @@ cmd
 ```yarn add html-webpack-plugin -D```
 ```yarn add webpack-dev-server -D``` é tipo um nodemon de webpack, adiciona a possibilidade de assistir as mudanças dos arquivos (watch)
 ```yarn webpack serve``` roda o projeto em modo watch
+```yarn add cross-env -D``` => auxilia na criação de variáveis de ambiente
