@@ -18,6 +18,7 @@ cmd
 ```yarn add cross-env -D``` => auxilia na criação de variáveis de ambiente
 ```yarn add style-loader css-loader -D``` => possibilita que o react leia css
 ```yarn add sass node-sass sass-loader -D``` => suporte a Sass
+```yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh``` => faz com que ao fazer um refresh na página, o react não retorne as variáveis ao seu estado natural, assim não precisando interagir novamente com as variáveis
 
 
 #Conceitos
