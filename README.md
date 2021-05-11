@@ -17,3 +17,4 @@ cmd
 ```yarn webpack serve``` roda o projeto em modo watch
 ```yarn add cross-env -D``` => auxilia na criação de variáveis de ambiente
 ```yarn add style-loader css-loader -D``` => possibilita que o react leia css
+```yarn add sass node-sass sass-loader -D``` => suporte a Sass
