@@ -18,3 +18,12 @@ cmd
 ```yarn add cross-env -D``` => auxilia na criação de variáveis de ambiente
 ```yarn add style-loader css-loader -D``` => possibilita que o react leia css
 ```yarn add sass node-sass sass-loader -D``` => suporte a Sass
+
+
+#Conceitos
+
+##Imutabilidade
+  - ```usuarios = ['renato3g', 'renatodev', 'denatoweb']```
+  - ```usuarios.push('renato_mobile)``` ✘
+  - ```usuariosNovo = [...usuarios, 'renato_mobile]```✓
+  - Dado uma variável em memória, em programação funcional se usa o conceito de imutabilidade que é a não alteração de valores de variáveis e sim a criação de uma nova variável com os novos valores
