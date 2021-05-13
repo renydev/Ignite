@@ -28,3 +28,22 @@ cmd
   - ```usuarios.push('renato_mobile)``` ✘
   - ```usuariosNovo = [...usuarios, 'renato_mobile]```✓
   - Dado uma variável em memória, em programação funcional se usa o conceito de imutabilidade que é a não alteração de valores de variáveis e sim a criação de uma nova variável com os novos valores
+
+
+#Hooks
+
+##UseState
+##UseEfect
+  ```
+  userEffect(() => {
+    
+  }, [])
+  ```
+caso o array não tenha valores, o método será chamado somente uma vez, na inicialização da aplicação
+caso haja uma variável que é alterada no corpo do método, ele é chamado novamente e fica em loop infinito
+  ```
+  userEffect(() => {
+    
+  })
+  ```
+caso não haja array, o método será chamado em loop, isso é preciso ser evitado
