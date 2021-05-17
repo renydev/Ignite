@@ -21,6 +21,9 @@ cmd
 ```yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh``` => faz com que ao fazer um refresh na página, o react não retorne as variáveis ao seu estado natural, assim não precisando interagir novamente com as variáveis
 ```yarn add typescript -D```
 ```yarn tsc init``` => inicializa o arquivo de configuração de typescript (tsconfig.json)
+```yarn add @babel/preset-typescript -D``` => para o babel entender typescript
+```yarn add -D @types/react-dom``` => instala os types do react dom
+```yarn add -D @types/react``` => instala os types do react
 
 
 #Conceitos
