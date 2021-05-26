@@ -3,7 +3,8 @@
 Aulas Projeto 02
 
 cmd
-```yarn create react-app dtmoney --template typescript```
+```yarn create react-app dtmoney --template typescript``` => cria toda a aplicação com template em typescript
+```yarn add styled-components```  => biblioteca de css in js (css gerado por js)
 
 
 #Conceitos
