@@ -21,3 +21,13 @@ o ``````export default`````` exporta a função com um nome padrão, assim, a cl
     </div>
   );
 }``````
+
+#Ferramentas
+
+#JSON Server
+O JSON Server é utilizado para simular um backend com cruds
+
+#MirageJS
+tem banco de dados
+#MSW
+moccar camada de network
