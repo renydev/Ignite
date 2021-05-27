@@ -6,6 +6,7 @@ cmd
 ```yarn create react-app dtmoney --template typescript``` => cria toda a aplicação com template em typescript
 ```yarn add styled-components```  => biblioteca de css in js (css gerado por js), serve para inserir css somente no escopo do componente
 ```yarn add miragejs```  => biblioteca para criar mocks de api
+```yarn add axios```  => biblioteca para manusear requisições http
 
 
 #Conceitos

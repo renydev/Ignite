@@ -9,7 +9,7 @@ export const Container = styled.main`
   div {
     background: var(--shape);
     padding: 1.5rem;
-    border-radius: 0%.25rem;
+    border-radius: .25rem;
     color: var(--text-title);
 
     header {
