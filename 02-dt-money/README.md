@@ -7,6 +7,8 @@ cmd
 ```yarn add styled-components```  => biblioteca de css in js (css gerado por js), serve para inserir css somente no escopo do componente
 ```yarn add miragejs```  => biblioteca para criar mocks de api
 ```yarn add axios```  => biblioteca para manusear requisições http
+```yarn add react-modal ```  => biblioteca para criar modals sem precisar criar do zero
+```yarn add @types/react-modal -D ```  => types
 
 
 #Conceitos
