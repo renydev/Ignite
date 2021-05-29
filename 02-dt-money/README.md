@@ -9,6 +9,7 @@ cmd
 ```yarn add axios```  => biblioteca para manusear requisições http
 ```yarn add react-modal ```  => biblioteca para criar modals sem precisar criar do zero
 ```yarn add @types/react-modal -D ```  => types
+```yarn add polished ```  => pacote para manipulação de cores em js dentro do styles.ts
 
 
 #Conceitos
