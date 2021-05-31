@@ -8,7 +8,6 @@ import { TransactionsContext } from "./TransactionsContext";
 
 export function App() {
 
-
   const [isNewTransationModalOpen, setIsNewTransationModalOpen] = useState(false);
 
   function handleOpenNewTransationModal() {
