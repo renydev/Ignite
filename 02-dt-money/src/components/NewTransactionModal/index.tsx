@@ -13,7 +13,8 @@ interface NewTransactionModalProps {
 
 export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModalProps) {
 
-  Modal.setAppElement('body');
+  Modal.setAppElement('#root');
+
   const [title, setTitle] = useState('');
   const [value, setValue] = useState(0);
   const [category, setCategory] = useState('');
