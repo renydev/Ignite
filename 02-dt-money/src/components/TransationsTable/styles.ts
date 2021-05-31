@@ -15,6 +15,7 @@ export const Container = styled.div`
     td {
       padding: 1rem 2rem;
       border: 0;
+      background: var(--shape);
       color: var(--text-body);
       border-radius: 0.25rem;
 
@@ -24,7 +25,7 @@ export const Container = styled.div`
       &.deposit {
         color: var(--green);
       }
-      &.withDraw {
+      &.withdraw {
         color: var(--red);
       }
     }
