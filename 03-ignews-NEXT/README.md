@@ -5,6 +5,7 @@ Aulas Projeto 03
 cmd
 ```yarn create next-app ignews``` => cria toda a aplicação com framework Nextjs
 ```yarn add typescript @types/react @types/node -D``` => mesmo com Nextjs é necessário instalar os types de react, pois o react e o node não têm typescript instalado por padrão
+```yarn add sass``` => adiciona o Sass na aplicação
 
 
 #FERRAMENTAS
@@ -35,6 +36,9 @@ Github
 
 
 #CONCEITOS
+ - Scoped CSS
+  - CSS global afeta a aplicação inteira, então, cada página precisa ter um css que esteja dento de seu escopo
+  - Com Nextjs é usado o CSS Modules
  - SPA (SINGLE PAGE APLICATION)
   - Browser(Cliente) > Código React(Bundle.js) > Back-end(Servidor) > Código React(Bundle.js) > Listagem de Dados
  - SSR (SERVER-SIDE RENDERING)
