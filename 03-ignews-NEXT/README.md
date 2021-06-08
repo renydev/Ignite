@@ -50,3 +50,5 @@ Github
  - NextJs tem sistema de rotas por arquivo (file-system based router)
  - Rotas
   - Todos os arquivos dentro da pasta pages é exposto por seu nome, ex.: pages/produtos.js pode ser acessado pelo link https://localhost:3000/produtos
+ - o arquivo ``````_app.tsx`````` é o arquivo principal da aplicação, ele sempre é recarregado quando a aplicação muda de página
+ - o arquivo ``````_document.tsx`````` é um arquivo de configuração, ele é executado somente uma vez
