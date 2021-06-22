@@ -6,6 +6,7 @@ cmd
 ```yarn create next-app ignews``` => cria toda a aplicação com framework Nextjs
 ```yarn add typescript @types/react @types/node -D``` => mesmo com Nextjs é necessário instalar os types de react, pois o react e o node não têm typescript instalado por padrão
 ```yarn add sass``` => adiciona o Sass na aplicação
+```yarn add react-icons``` => adiciona os ícones com react
 
 
 #FERRAMENTAS
